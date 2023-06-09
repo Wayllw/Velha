@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/fundp.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    font-weight: bold;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+    
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.game-button.x {
+    background-image: url('img/x.jpg');
+}
+
+.game-button.o {
+    background-image: url('img/o.jpg');
+}
