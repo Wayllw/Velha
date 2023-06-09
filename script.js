@@ -51,7 +51,7 @@ function check() {
 
         for (pos of positions) {
             if (pos.every((item) => items.includes(item))) {
-                window.open("https://www.youtube.com/watch?v=xbOKh03HPAU")
+                window.open("https://youtu.be/HLQ1cK9Edhc?t=18")
                 alert("O JOGADOR '" + playerLastMove + "' GANHOU!");
                 init();
                 return;
